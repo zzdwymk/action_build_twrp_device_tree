@@ -34,3 +34,5 @@ ro.product.first_api_level=23 #安卓api版本号，如安卓6.0是23
 2.如果你的设备是oppo，且出现了AssertionError: Property ro.product.system.device could not be found in build.prop
 需要将ramdisk里面的etc/recovery.fstab复制到system/etc/recovery.fstab
 system/build.prop和vendor/build.prop的内容一起合并到/prop.default然后打包生成
+
+The uploaded twrp_device_tree is not modified. If you need to modify it, modify it yourself
